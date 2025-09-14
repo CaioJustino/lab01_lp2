@@ -1,33 +1,27 @@
 # 🍝 Restaurante Paparoto Cucina
 
-Sistema simples de gerenciamento de pedidos de um restaurante, desenvolvido em **Java** utilizando a **Eclipse IDE**.
+Laboratório 1 - Sistema de Gerenciamento de Pedidos: projeto de POO (Programação Orientada a Objetos) desenvolvido em Java para a disciplina de Linguagem de Programação II (LP II).
 
 ## 📋 Funcionalidades
 
-- Registrar pedidos com:
-  - Nome do cliente
-  - Itens e preços
-- Listar pedidos ordenados por **ID**
-- Cálculo automático do **valor total do pedido**
+- registrarPedido()
+- removerPedido()
+- listarPedidos()
 
 ## 🛠 Tecnologias
 
-- **Java 17+** (ou compatível)
-- **Eclipse IDE** para desenvolvimento
+- **Java 17+**
+- **Eclipse IDE**
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura Principal do Projeto
 
 src/
-├── Item.java
-├── Pedido.java
-└── Restaurante.java // classe principal com o menu e execução
-
-markdown
-Copiar código
-
-- `Item.java` → representa um item do pedido (nome e preço).  
-- `Pedido.java` → representa o pedido (id, cliente, lista de itens).  
-- `Restaurante.java` → contém o `main` e os métodos `registrarPedido()` e `listarPedidos()`.  
+├── app/
+  └── Main.java
+└── lab01_lp2/
+  ├── Item.java
+  ├── Menu.java
+  └── Pedido.java
 
 ## ▶️ Como executar
 
@@ -35,7 +29,7 @@ Copiar código
 2. Abra o projeto no **Eclipse IDE**:
    - `File > Import > Existing Projects into Workspace`
    - Selecione a pasta do projeto.
-3. Execute a classe `Restaurante.java` com `Run As > Java Application`.
+3. Execute a classe `Main.java` com `Run As > Java Application`.
 
 ## 📌 Exemplo de Uso
 
@@ -59,9 +53,6 @@ Itens:
 Pizza | R$ 45.0
 Valor total: R$ 45.0
 
-css
-Copiar código
-
 ## 👨‍💻 Autor
 
-Projeto desenvolvido para fins de estudo em Java utilizando a **Eclipse IDE**.  
+Projeto desenvolvido para fins de estudo em Java por Caio Justino.
