@@ -25,6 +25,8 @@ src/
   └── Pedido.java
 ```
 
+<br>
+
 ## ▶️ Como executar
 
 1. Clone este repositório ou baixe os arquivos.<br><br>
@@ -73,6 +75,7 @@ Cliente: João Silva
 Itens:
 - Pizza | R$ 45.0
 ```
+<br>
 
 ## 👨‍💻 Autor
 
